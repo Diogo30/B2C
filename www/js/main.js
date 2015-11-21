@@ -14,8 +14,8 @@ app.controller('MainCtrl', function($scope, $ionicSideMenuDelegate){
 app.controller('MenuList', function($scope){
   $scope.items = [
     {name: 'Home'},
-    {name: 'Pictures'},
-    {name: 'Videos'},
-    {name: 'Articles'}
+    {name: 'History'},
+    {name: 'Downloads'},
+    {name: 'Contacts'}
   ]
 })
